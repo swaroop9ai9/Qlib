@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Qlib | Nullius in Verba</title>
+    <link   href="https://fonts.google.googleapis.com/css?family=Quicksand:300,400,500,700" ref= "stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style.css') }}">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="nav">
+        <div class="left">
+          <ul>
+            <li><a style="font-size:30px" href="#">About Us</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a style="font-size:30px"; href="{{ url_for('login') }}">Log In</a></li>
+            <li><a style="font-size:30px"; href="{{ url_for('signup') }}">Sign Up</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <div class="header">
+        <h1 style="font-size:160px;">Qlib</h1>
+        <br><br><br><br>
+        <p>Nullius in Verba</p>
+
+
+      </div>
+
+    </div>
+  </body>
+</html>
