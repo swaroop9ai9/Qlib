@@ -14,8 +14,8 @@ mail_settings = {
     "MAIL_PORT": 465,
     "MAIL_USE_TLS": False,
     "MAIL_USE_SSL": True,
-    "MAIL_USERNAME": 'qlibnoreply@gmail.com ',
-    "MAIL_PASSWORD": 'HackDibner77'
+    "MAIL_USERNAME": '',
+    "MAIL_PASSWORD": ''
 }
 app.config.update(mail_settings)
 mail = Mail(app)
