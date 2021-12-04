@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Al Safe Snap</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'main.css') }}">
+  </head>
+  <body>
+    <script src="{{url_for('static', filename='webcamjs/webcam.min.js')}}"></script>
+    <script src="{{url_for('static', filename='webcamjs/webcam.js')}}"></script>
+    <script src="{{url_for('static', filename='scan.js')}}"></script>
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <form action="/welcome" method="POST">
+            <input type="submit" class="fadeIn second" value="Home">
+        </form>
+
+
+        <h2 class="active">Scanner</h2>
+
+        <div id="my_camera"></div>
+        <input type="button" class="fadeIn third" onclick="snap()" value="Snap">
+        <div id="results"></div>
+        <form method="POST" enctype="multipart/form-data" id="myForm">
+          <input type="button" class="fadeIn fourth" value="Search" onclick="upload()">
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>

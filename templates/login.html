@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Qlib Login</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'main.css') }}">
+</head>
+<body>
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Sign In </h2>
+    <a href="{{ url_for('signup') }}"><h2 class="inactive underlineHover"> Sign Up </h2></a>
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="{{ url_for('static', filename = 'user.png') }}" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form method="POST" action="/login">
+      <input type="email" id="login" class="fadeIn second" name="email" placeholder="email" required>
+      <input type="password" id="password" class="fadeIn third" name="pass" placeholder="password" required>
+			<div class="Rememberme">
+				<label class="checkbox"><input type="checkbox"> Remember me</label>
+			</div>
+
+			<input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+		<form  action="/forgopass" method="post">
+			<div id="formFooter">
+				<input  type ="submit" class="underlineHover" value="Forgot Password?">
+			</div>
+		</form>
+
+
+
+  </div>
+</div>
+</body>
+</html>

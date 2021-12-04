@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form method="POST" action="" class="form-horizontal">
+{{ form2.hidden_tag() }}
+{% for replyy in comment.replies %}
+  {% if replyy.body_html %}
+                        {{ replyy.body_html | safe }}
+                        {% else %}
+                        {{ replyy.text }}
+                    {% endif %}
+{% endfor %}
+
+
+       <div class="comment pull-right">
+              <a hred="" class="reply-button">{{ form2.reply }}</a>
+        </div>
+    </form>
+<script>$('.reply-button').click(function(){
+  $(this).after($('<textarea>').attr('class','reply-box'));
+});​</script>
+
+
+  </body>
+</html>

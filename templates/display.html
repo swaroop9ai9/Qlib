@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Qlib Welcome</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'main.css') }}">
+</head>
+<body>
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Viewpoints </h2>
+
+
+		<form action="/search" method="GET">
+      <input type="text" name="keySearch" placeholder="Search word">
+			<input type="submit" class="fadeIn second" value="Search">
+		</form>
+
+    <div class="row">
+    <div class="col-sm-8 blog-main">
+      {% for post in posts %}
+    <div class="post" >
+      <h4 class="blog-post-title">{{post.title}}</h4>
+      <h6 class="blog-post-person">{{post.name}}</h6>
+      <h6 class="blog-post-category">{{post.category}}</h6>
+      <p>{{post.content}}</p>
+    </div>
+    <br>
+    {% endfor %}
+    </div>
+    </div>
+
+
+
+    <form action="/login" method="POST">
+      <input type="submit" class="fadeIn second" value="Go Home">
+    </form>
+
+  </div>
+</div>
+</body>
+</html>
