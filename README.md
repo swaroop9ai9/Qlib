@@ -11,10 +11,10 @@ Introduction and Brief Description of Proposal
 Qlib makes a library as an interactive and intelligent entity. Imagine with a simple scan you gather access to myriad feedback and perceptions on the subject. You can have access to ideas, perceptions and thoughts of an entire subject with a simple tap. Qlib brings out the best in a college learning community, where you can understand other students ideas about a subject or concept from students with different academic backgrounds (Computer Science, Arts, Economics) and experiences. A student can simple scan a library book and the deep learning model returns the book review, comments, explanations, videos, notes posted by other students. And that is limitless.
 
 Working Prototype:
-![Home Page](images/home.jpg)
-![](images/signup.jpg)
-![](images/welcome.jpg)
-![](images/signin.jpg)
+![Home Page](images/home.png)
+![](images/signup.png)
+![](images/welcome.png)
+![](images/signin.png)
 ![](images/home.jpg)
 ![](images/scan.jpg)
 ![](images/addpoint.jpg)
