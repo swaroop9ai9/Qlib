@@ -12,13 +12,18 @@ Qlib makes a library as an interactive and intelligent entity. Imagine with a si
 
 Working Prototype:
 ![Home Page](images/home.png)
+This is our home page to login and signup.
 ![](images/signup.png)
-![](images/welcome.png)
+![](images/email.png)
 ![](images/signin.png)
-![](images/home.jpg)
+![](images/welcome.jpg)
+Contains functionality to find friend and study groups based on recomandation engine. We can Scan and search the book and also add & search viewpoints by others.
 ![](images/scan.jpg)
+We can search viewpoints on a book based on a simple tap. 
 ![](images/addpoint.jpg)
+We can add our viewpoint with categories, point etc which aids the recommendation engine. 
 ![](images/searchpoint.jpg)
+We simililarly also can search for viewpoints based on title search. 
 
 
 Background/Literature Review
@@ -45,6 +50,19 @@ All users have accounts in the application which helps keep track of their profi
 We can eventually use this data to understand learning patterns from structured data such as categories, tags, numeric data etc. We can use this data to understand how students process and learn information. We also can recommend study groups using a recommendation engine.
 The idea is very feasible to develop and it can easily bring people together to share knowledge. All we need is time and data to get this up and running at a large scale. Using this data we can suggest student to follow other students with similar interest using a similarity index metric.
 
+Yet to develop:
+- Texting feature for friends.
+- We can pickup location when a person scans for book and save it in the map, we can direct the user to find the book next time around. 
+- Recommendation engine for friends, study groups and books.
+- Develop machine learning models to predict and model learning patterns. 
+
+What future holds:
+- Decentralization using blockchain in many domains.
+- CRISPR for gene editing and Genome sequencing.
+- Policy and Law making in such domains. 
+We need cross domain minds to work on such exciting avenues with conscience to help build a sustainable future. 
+
+
 The Pitch/Conclusion
 
 Education cannot be confined to boundaries and authority, we propose a decentralised way of learning from across disciplines, because a submission to authority is a restriction to freedom, and only freedom can forge a path to truth.
@@ -53,3 +71,5 @@ Nullius in Verba ~ Take no one’s word for it.
 Citations and Image Attributions
 
 https://www.sciencedirect.com/science/article/pii/S187167842030176X
+
+
