@@ -20,23 +20,23 @@ This is our home page to login and signup.
 ![](images/signup.png)
 ![](images/email.png)
 ![](images/signin.png)
-![](images/welcome.jpg)
+![](images/welcome.png)
 
 
 Contains functionality to find friend and study groups based on recomandation engine. We can Scan and search the book and also add & search viewpoints by others.
 
 
-![](images/scan.jpg)
+![](images/scan.png)
 
 
 We can search viewpoints on a book based on a simple tap. 
 
 
-![](images/addpoint.jpg)
+![](images/addpoint.png)
 We can add our viewpoint with categories, point etc which aids the recommendation engine. 
 
 
-![](images/searchpoint.jpg)
+![](images/searchpoint.png)
 We simililarly also can search for viewpoints based on title search. 
 
 
