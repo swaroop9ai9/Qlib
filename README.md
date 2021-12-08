@@ -33,10 +33,13 @@ We can search viewpoints on a book based on a simple tap.
 
 
 ![](images/addpoint.png)
+
 We can add our viewpoint with categories, point etc which aids the recommendation engine. 
 
 
 ![](images/searchpoint.png)
+
+
 We simililarly also can search for viewpoints based on title search. 
 
 
