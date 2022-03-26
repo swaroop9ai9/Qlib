@@ -61,6 +61,8 @@ def index():
 
 
 # Login
+def sum(a,b):
+    return a+b 
 
 
 @app.route('/login',methods=['GET','POST'])
